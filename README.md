@@ -4,6 +4,7 @@
 - Rendez-vous sur <https://discord.com/app> depuis un navigateur __sur PC__ et connectez-vous à votre compte.
 - Ouvrez la console de développeur (Ctrl + Shirt + I).
 - Rendez-vous dans l'onglet "Console" et entrez le code suivant :
+  
     ```js
     let wpRequire;
     window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wpRequire = req; }]);
